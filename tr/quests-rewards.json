@@ -90,21 +90,21 @@
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_6": {
-		"NL": "excellent throw in a row:excellent throws in a row",
-		"DE": "fabelhaften Wurf hintereinander:fabelhafte Würfe hintereinander",
-		"EN": "excellent throw in a row:excellent throws in a row",
+		"NL": "excellent throw:excellent throws in a row",
+		"DE": "fabelhaften Wurf:fabelhafte Würfe hintereinander",
+		"EN": "excellent throw:excellent throws in a row",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_7": {
-		"NL": "great curveball throw in a row:great curveball throws in a row",
-		"DE": "großartigen Curveball hintereinander:großartige Curvebälle hintereinander",
-		"EN": "great curveball throw in a row:great curveball throws in a row",
+		"NL": "great curveball throw:great curveball throws in a row",
+		"DE": "großartigen Curveball:großartige Curvebälle hintereinander",
+		"EN": "great curveball throw:great curveball throws in a row",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_8": {
-		"NL": "nice curveball throw in a row:nice curveball throws in a row",
-		"DE": "guten Curveball hintereinander:gute Curvebälle hintereinander",
-		"EN": "nice curveball throw in a row:nice curveball throws in a row",
+		"NL": "nice curveball throw:nice curveball throws in a row",
+		"DE": "guten Curveball:gute Curvebälle hintereinander",
+		"EN": "nice curveball throw:nice curveball throws in a row",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_9": {
@@ -114,9 +114,9 @@
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_10": {
-		"NL": "great throw in a row:great throws in a row",
-		"DE": "großartigen Wurf hintereinander:großartige Würfe hintereinander",
-		"EN": "great throw in a row:great throws in a row",
+		"NL": "great throw:great throws in a row",
+		"DE": "großartigen Wurf:großartige Würfe hintereinander",
+		"EN": "great throw:great throws in a row",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_11": {
@@ -180,9 +180,9 @@
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_21": {
-		"NL": "Electric-type Pokemon:Electric-type Pokemon",
-		"DE": "Pokemon vom Typ Elektro:Pokemon vom Typ Elektro",
-		"EN": "Electric-type Pokemon:Electric-type Pokemon",
+		"NL": "Ghost-type Pokemon:Ghost-type Pokemon",
+		"DE": "Pokemon vom Typ Geist:Pokemon vom Typ Geist",
+		"EN": "Ghost-type Pokemon:Ghost-type Pokemon",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_22": {
@@ -204,9 +204,9 @@
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_25": {
-		"NL": "Grass-, Ground- or Fire-type:Grass-, Ground- or Fire-type",
-		"DE": "Pokemon vom Typ Pflanze, Feuer oder Boden:Pokemon vom Typ Pflanze, Feuer oder Boden",
-		"EN": "Grass-, Ground- or Fire-type:Grass-, Ground- or Fire-type",
+		"NL": "Grass-, Water- or Fire-type:Grass-, Water- or Fire-type",
+		"DE": "Pokemon vom Typ Pflanze, Wasser oder Feuer:Pokemon vom Typ Pflanze, Wasser oder Feuer",
+		"EN": "Grass-, Water- or Fire-type:Grass-, Water- or Fire-type",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_26": {
@@ -228,9 +228,9 @@
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_29": {
-		"NL": "Water-, Electric- or Bug-type Pokemon:Water-, Electric- or Bug-type Pokemon",
-		"DE": "Pokemon vom Typ Elektro, Wasser oder Käfer:Pokémon vom Typ Elektro, Wasser oder Käfer",
-		"EN": "Water-, Electric- or Bug-type Pokemon:Water-, Electric- or Bug-type Pokemon",
+		"NL": "Electric-, Water- or Fire-type Pokemon:Electric-, Water- or Fire-type Pokemon",
+		"DE": "Pokemon vom Typ Elektro, Wasser oder Feuer:Pokémon vom Typ Elektro, Wasser oder Feuer",
+		"EN": "Electric-, Water- or Fire-type Pokemon:Electric-, Water- or Fire-type Pokemon",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_30": {
@@ -273,6 +273,54 @@
 		"NL": "excellent throw:excellent throws",
 		"DE": "fabelhaften Wurf:fabelhafte Würfe",
 		"EN": "excellent throw:excellent throws",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_37": {
+		"NL": "Ice-type Pokemon:Ice-type Pokemon",
+		"DE": "Pokemon vom Typ Eis:Pokemon vom Typ Eis",
+		"EN": "Ice-type Pokemon:Ice-type Pokemon",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_38": {
+		"NL": "Curveball Throw:Curveball Throws in a row",
+		"DE": "Curveball:Curvebälle",
+		"EN": "Curveball Throw:Curveball Throws in a row",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_39": {
+		"NL": "DUPLICATE",
+		"DE": "DUPLICATE",
+		"EN": "DUPLICATE",
+		"PT-BR": "DUPLICATE"
+	},
+	"quest_action_40": {
+		"NL": "Excellent Curveball Throw:Excellent Curveball Throws",
+		"DE": "fabelhaften Curveball:fabelhafte Curvebälle",
+		"EN": "Excellent Curveball Throw:Excellent Curveball Throws",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_41": {
+		"NL": "Ditto:Ditto",
+		"DE": "Ditto:Ditto",
+		"EN": "Ditto:Ditto",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_42": {
+		"NL": "berry to catch pokemon:berries to catch pokemon",
+		"DE": "Beere beim Fangen von Pokemon ein:Beeren beim Fangen von Pokemon ein",
+		"EN": "berry to catch pokemon:berries to catch pokemon",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_43": {
+		"NL": "Water-type Pokemon:Water-type Pokemon",
+		"DE": "Pokemon vom Typ Wasser:Pokemon vom Typ Wasser",
+		"EN": "Water-type Pokemon:Water-type Pokemon",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_44": {
+		"NL": "Grass-type Pokemon:Grass-type Pokemon",
+		"DE": "Pokemon vom Typ Pflanze:Pokemon vom Typ Pflanze",
+		"EN": "Grass-type Pokemon:Grass-type Pokemon",
 		"PT-BR": "TRANSLATE"
 	},
 	"reward_type_1": {
