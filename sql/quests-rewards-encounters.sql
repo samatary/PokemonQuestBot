@@ -151,6 +151,7 @@ INSERT INTO `encounterlist` VALUES (22,22,'4');
 INSERT INTO `encounterlist` VALUES (23,23,'1');
 INSERT INTO `encounterlist` VALUES (24,24,'7');
 INSERT INTO `encounterlist` VALUES (25,25,'133');
+INSERT INTO `encounterlist` VALUES (26,30,'125');
 /*!40000 ALTER TABLE `encounterlist` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `quick_questlist`;
