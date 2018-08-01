@@ -59,6 +59,12 @@
 		"EN": "Power-up",
 		"PT-BR": "TRANSLATE"
 	},
+	"quest_type_11": {
+		"NL": "Transfer",
+		"DE": "Verschicke",
+		"EN": "Transfer",
+		"PT-BR": "TRANSLATE"
+	},
 	"quest_action_1": {
 		"NL": "Egg:Eggs",
 		"DE": "Ei aus:Eier aus",
@@ -282,16 +288,16 @@
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_38": {
-		"NL": "Curveball Throw:Curveball Throws in a row",
+		"NL": "Curveball Throw:Curveball Throws",
 		"DE": "Curveball:Curvebälle",
-		"EN": "Curveball Throw:Curveball Throws in a row",
+		"EN": "Curveball Throw:Curveball Throws",
 		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_39": {
-		"NL": "DUPLICATE",
-		"DE": "DUPLICATE",
-		"EN": "DUPLICATE",
-		"PT-BR": "DUPLICATE"
+		"NL": "Curveball Throw:Curveball Throws in a row",
+		"DE": "Curveball:Curvebälle hintereinander",
+		"EN": "Curveball Throw:Curveball Throws in a row",
+		"PT-BR": "TRANSLATE"
 	},
 	"quest_action_40": {
 		"NL": "Excellent Curveball Throw:Excellent Curveball Throws",
@@ -321,6 +327,24 @@
 		"NL": "Grass-type Pokemon:Grass-type Pokemon",
 		"DE": "Pokemon vom Typ Pflanze:Pokemon vom Typ Pflanze",
 		"EN": "Grass-type Pokemon:Grass-type Pokemon",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_45": {
+		"NL": "Meowth or Growlithe:Meowth or Growlithe",
+		"DE": "Mauzi oder Fukano:Mauzi oder Fukano",
+		"EN": "Meowth or Growlithe:Meowth or Growlithe",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_46": {
+		"NL": "Skitty or Poochyena:Skitty or Poochyena",
+		"DE": "Eneco oder Fiffyen:Eneco oder Fiffyen",
+		"EN": "Skitty or Poochyena:Skitty or Poochyena",
+		"PT-BR": "TRANSLATE"
+	},
+	"quest_action_47": {
+		"NL": "Meowth:Meowths:",
+		"DE": "Mauzi:Mauzis",
+		"EN": "Meowth:Meowths:",
 		"PT-BR": "TRANSLATE"
 	},
 	"reward_type_1": {

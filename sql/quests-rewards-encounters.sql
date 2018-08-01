@@ -2,7 +2,7 @@
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -18,7 +18,7 @@ CREATE TABLE `questlist` (
   `quest_quantity` int(10) unsigned NOT NULL,
   `quest_action` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `questlist` WRITE;
@@ -54,6 +54,12 @@ INSERT INTO `questlist` VALUES (28,5,3,7);
 INSERT INTO `questlist` VALUES (29,7,5,31);
 INSERT INTO `questlist` VALUES (30,7,7,31);
 INSERT INTO `questlist` VALUES (31,9,3,15);
+INSERT INTO `questlist` VALUES (32,6,1,45);
+INSERT INTO `questlist` VALUES (33,6,1,46);
+INSERT INTO `questlist` VALUES (34,4,1,47);
+INSERT INTO `questlist` VALUES (35,11,10,4);
+INSERT INTO `questlist` VALUES (36,5,3,39);
+INSERT INTO `questlist` VALUES (37,6,5,5);
 /*!40000 ALTER TABLE `questlist` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `rewardlist`;
@@ -121,7 +127,7 @@ CREATE TABLE `encounterlist` (
   `quest_id` int(10) unsigned NOT NULL,
   `pokedex_ids` varchar(20) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `encounterlist` WRITE;
@@ -130,7 +136,7 @@ INSERT INTO `encounterlist` VALUES (1,1,'25');
 INSERT INTO `encounterlist` VALUES (2,2,'37,60');
 INSERT INTO `encounterlist` VALUES (3,3,'147');
 INSERT INTO `encounterlist` VALUES (4,4,'129');
-INSERT INTO `encounterlist` VALUES (5,5,'108');
+INSERT INTO `encounterlist` VALUES (5,5,'203');
 INSERT INTO `encounterlist` VALUES (6,6,'100');
 INSERT INTO `encounterlist` VALUES (7,7,'92');
 INSERT INTO `encounterlist` VALUES (8,8,'92');
@@ -143,7 +149,7 @@ INSERT INTO `encounterlist` VALUES (14,14,'124');
 INSERT INTO `encounterlist` VALUES (15,15,'125');
 INSERT INTO `encounterlist` VALUES (16,16,'147');
 INSERT INTO `encounterlist` VALUES (17,17,'1,4,7');
-INSERT INTO `encounterlist` VALUES (18,18,'102');
+INSERT INTO `encounterlist` VALUES (18,18,'171');
 INSERT INTO `encounterlist` VALUES (19,19,'126');
 INSERT INTO `encounterlist` VALUES (20,20,'113');
 INSERT INTO `encounterlist` VALUES (21,21,'133');
@@ -152,6 +158,12 @@ INSERT INTO `encounterlist` VALUES (23,23,'1');
 INSERT INTO `encounterlist` VALUES (24,24,'7');
 INSERT INTO `encounterlist` VALUES (25,25,'133');
 INSERT INTO `encounterlist` VALUES (26,30,'125');
+INSERT INTO `encounterlist` VALUES (27,32,'309');
+INSERT INTO `encounterlist` VALUES (28,33,'209');
+INSERT INTO `encounterlist` VALUES (29,34,'228');
+INSERT INTO `encounterlist` VALUES (30,35,'200');
+INSERT INTO `encounterlist` VALUES (31,36,'327');
+INSERT INTO `encounterlist` VALUES (32,37,'179');
 /*!40000 ALTER TABLE `encounterlist` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `quick_questlist`;
@@ -162,13 +174,15 @@ CREATE TABLE `quick_questlist` (
   `quest_id` int(10) unsigned NOT NULL,
   `reward_id` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `quick_questlist` WRITE;
 /*!40000 ALTER TABLE `quick_questlist` DISABLE KEYS */;
 INSERT INTO `quick_questlist` VALUES (1,4,1);
-INSERT INTO `quick_questlist` VALUES (2,20,1);
+INSERT INTO `quick_questlist` VALUES (2,36,1);
+INSERT INTO `quick_questlist` VALUES (3,3,1);
+INSERT INTO `quick_questlist` VALUES (4,16,1);
 /*!40000 ALTER TABLE `quick_questlist` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
